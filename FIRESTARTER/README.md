@@ -43,7 +43,7 @@ Internet Traffic (HTTPS / 443)
         ▼
 ┌──────────────────────────────────────────────┐
 │ Stage 2: Session Processing Layer            │
-│ (Post-Auth / VPN Session Handling)          │
+│ (Post-Auth / VPN Session Handling)           │
 └──────────────────────────────────────────────┘
         │
         │ Secondary Exploitation Path
@@ -57,7 +57,7 @@ Internet Traffic (HTTPS / 443)
         ▼
 ┌──────────────────────────────────────────────┐
 │ Stage 3: Memory Corruption Conditions        │
-│ (Heap / Parser / Object Lifecycle Issues)   │
+│ (Heap / Parser / Object Lifecycle Issues)    │
 └──────────────────────────────────────────────┘
         │
         ▼
@@ -83,6 +83,6 @@ Internet Traffic (HTTPS / 443)
         │
         ▼
 ┌──────────────────────────────────────────────┐
-│ Long-term Access / Stealth Operations        │
+│ Long-term Access / Stealth Operations       │
 │ (Maintained Appliance Residency)            │
 └──────────────────────────────────────────────┘
