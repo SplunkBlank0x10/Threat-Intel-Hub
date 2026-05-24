@@ -24,4 +24,4 @@ Current research areas include:
 
 ## Attack Chain & Operational Flow (Reconstructed View)
 
-![Attack Flow](./Attack Flow.png)
+![Attack Flow](https://github.com/Nullon1/Threat-Intel-Hub/blob/main/FIRESTARTER/Attack%20Flow.png)
