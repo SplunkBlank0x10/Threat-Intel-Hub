@@ -43,7 +43,7 @@ Internet Traffic (HTTPS / 443)
         ▼
 ┌──────────────────────────────────────────────┐
 │ Stage 2: Session Processing Layer            │
-│ (Post-Auth / VPN Session Handling)           │
+│ (Post-Auth / VPN Session Handling)          │
 └──────────────────────────────────────────────┘
         │
         │ Secondary Exploitation Path
@@ -57,7 +57,7 @@ Internet Traffic (HTTPS / 443)
         ▼
 ┌──────────────────────────────────────────────┐
 │ Stage 3: Memory Corruption Conditions        │
-│ (Heap / Parser / Object Lifecycle Issues)    │
+│ (Heap / Parser / Object Lifecycle Issues)   │
 └──────────────────────────────────────────────┘
         │
         ▼
@@ -69,16 +69,16 @@ Internet Traffic (HTTPS / 443)
         ▼
 ┌──────────────────────────────────────────────┐
 │ FIRESTARTER Deployment Phase (Observed)      │
-│ Linux-based persistence component            │
+│ Linux-based persistence component           │
 └──────────────────────────────────────────────┘
         │
         ▼
 ┌──────────────────────────────────────────────┐
 │ Persistence & Operational Control            │
-│ - Runtime persistence                        │
-│ - Restart survival mechanisms                │
-│ - Interaction with LINA process              │
-│ - Stealth & anti-forensics                   │
+│ - Runtime persistence                       │
+│ - Restart survival mechanisms               │
+│ - Interaction with LINA process             │
+│ - Stealth & anti-forensics                  │
 └──────────────────────────────────────────────┘
         │
         ▼
