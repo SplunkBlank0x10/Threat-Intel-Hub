@@ -22,57 +22,55 @@ Current research areas include:
 - CVE-2025-20362
 - CVE-2025-20333
 
-## Attack Chain & Operational Flow (Reconstructed View)
-
 Internet Traffic (HTTPS / 443)
-        │
-        ▼
+│
+▼
 ┌──────────────────────────────────────────────┐
 │ Stage 1: Initial Packet Processing           │
 │ (Pre-Auth / Parsing Layer)                   │
 └──────────────────────────────────────────────┘
-        │
-        │ Possible Exploit Path
-        │ CVE-2025-20362
-        ▼
+│
+│ Possible Exploit Path
+│ CVE-2025-20362
+▼
 ┌──────────────────────────────────────────────┐
 │ Authentication Boundary / Login Transition   │
 │ (Valid or Semi-Valid User Context)           │
 └──────────────────────────────────────────────┘
-        │
-        ▼
+│
+▼
 ┌──────────────────────────────────────────────┐
 │ Stage 2: Session Processing Layer            │
-│ (Post-Auth / VPN Session Handling)           │
+│ (Post-Auth / VPN Session Handling)          │
 └──────────────────────────────────────────────┘
-        │
-        │ Secondary Exploitation Path
-        │ CVE-2025-20333
-        ▼
+│
+│ Secondary Exploitation Path
+│ CVE-2025-20333
+▼
 ┌──────────────────────────────────────────────┐
 │ Internal LINA WebVPN Context Execution       │
 │ (Request Handling / Session Logic Layer)     │
 └──────────────────────────────────────────────┘
-        │
-        ▼
+│
+▼
 ┌──────────────────────────────────────────────┐
 │ Stage 3: Memory Corruption Conditions        │
 │ (Heap / Parser / Object Lifecycle Issues)    │
 └──────────────────────────────────────────────┘
-        │
-        ▼
+│
+▼
 ┌──────────────────────────────────────────────┐
 │ Control-Flow Disruption (Inferred)           │
 │ (Indirect Execution Path Influence)          │
 └──────────────────────────────────────────────┘
-        │
-        ▼
+│
+▼
 ┌──────────────────────────────────────────────┐
 │ FIRESTARTER Deployment Phase (Observed)      │
 │ Linux-based persistence component           │
 └──────────────────────────────────────────────┘
-        │
-        ▼
+│
+▼
 ┌──────────────────────────────────────────────┐
 │ Persistence & Operational Control            │
 │ - Runtime persistence                       │
@@ -80,8 +78,8 @@ Internet Traffic (HTTPS / 443)
 │ - Interaction with LINA process             │
 │ - Stealth & anti-forensics                  │
 └──────────────────────────────────────────────┘
-        │
-        ▼
+│
+▼
 ┌──────────────────────────────────────────────┐
 │ Long-term Access / Stealth Operations       │
 │ (Maintained Appliance Residency)            │
