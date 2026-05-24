@@ -21,3 +21,7 @@ Current research areas include:
 - Introduction
 - CVE-2025-20362
 - CVE-2025-20333
+
+## Attack Chain & Operational Flow (Reconstructed View)
+
+![Attack Flow](./Attack Flow.png)
