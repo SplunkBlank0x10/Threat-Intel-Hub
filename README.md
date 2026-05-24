@@ -41,37 +41,6 @@ Threat-Intel-Hub
 │   ├── Exploitation-Studies
 │   └── Architecture-Reviews
 │
-├── Malware
-│   ├── Malware-Families
-│   ├── Loaders
-│   ├── Implants
-│   ├── Ransomware
-│   └── Persistence-Techniques
-│
-├── Intrusions
-│   ├── Incident-Reconstruction
-│   ├── Breach-Analysis
-│   └── Campaign-Studies
-│
-├── Tradecraft
-│   ├── Initial-Access
-│   ├── Persistence
-│   ├── Privilege-Escalation
-│   ├── Credential-Access
-│   ├── Lateral-Movement
-│   ├── Discovery
-│   ├── Defense-Evasion
-│   └── Exfiltration
-│
-├── Defensive-Research
-│   ├── Detection-Engineering
-│   ├── Threat-Hunting
-│   ├── DFIR
-│   ├── Telemetry
-│   └── Hardening
-│
-└── References
-```
 
 ---
 
