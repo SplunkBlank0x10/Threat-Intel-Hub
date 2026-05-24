@@ -19,6 +19,9 @@ These reconstructions should not be interpreted as confirmed representations of 
 Current research areas include:
 
 - Introduction
-- CVE-2025-20333
 - CVE-2025-20362
+- CVE-2025-20333
 
+## Attack Chain & Operational Flow (Reconstructed View)
+
+![Attack Flow](https://github.com/Nullon1/Threat-Intel-Hub/blob/main/FIRESTARTER/Attack%20Flow.png)
